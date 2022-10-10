@@ -6,6 +6,9 @@ import lombok.SneakyThrows;
 
 import java.nio.charset.StandardCharsets;
 
+/**
+ * Represents message exchanging between several {@code Runnable} using RabbitMQ
+ */
 @AllArgsConstructor
 public class PingPonger implements Runnable {
     private String word;

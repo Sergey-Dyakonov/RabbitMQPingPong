@@ -10,6 +10,9 @@ public class RabbitMQHelper {
     private final Connection connection;
     private final Channel channel;
 
+    /**
+     * Provides functionality for easy interacting with RabbitMQ
+     */
     @SneakyThrows
     public RabbitMQHelper() {
         ConnectionFactory factory = new ConnectionFactory();
